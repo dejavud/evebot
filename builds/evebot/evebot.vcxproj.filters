@@ -7,10 +7,111 @@
     <Filter Include="vendors">
       <UniqueIdentifier>{53c66ca1-89a2-4ac8-ba9e-a94a79af5ad1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="vendors\c_hashmap">
+      <UniqueIdentifier>{2e87134d-f2ac-4cc9-9133-2d3cc902e841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\stb">
+      <UniqueIdentifier>{92feb0f6-ef60-472f-afb3-d0bbce591c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\sxmlc">
+      <UniqueIdentifier>{8a3f308a-a4a6-4e0b-bc63-03c284c5f6f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\vendors\c_hashmap\hashmap.c">
+      <Filter>vendors\c_hashmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\sxmlc\sxmlc.c">
+      <Filter>vendors\sxmlc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\sxmlc\sxmlsearch.c">
+      <Filter>vendors\sxmlc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\stb\stb_image.c">
+      <Filter>vendors\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\stb\stb_image_write.c">
+      <Filter>vendors\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_config.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_resmanager.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_image.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_engine.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_game.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_task.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\eb_opsimulator.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\vendors\c_hashmap\hashmap.h">
+      <Filter>vendors\c_hashmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\sxmlc\sxmlc.h">
+      <Filter>vendors\sxmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\sxmlc\sxmlsearch.h">
+      <Filter>vendors\sxmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\stb\stb_image.h">
+      <Filter>vendors\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\stb\stb_image_write.h">
+      <Filter>vendors\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_resmanager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_res_defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_engine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_task.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\eb_opsimulator.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

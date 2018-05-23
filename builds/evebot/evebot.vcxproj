@@ -19,7 +19,39 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\eb_config.c" />
+    <ClCompile Include="..\..\src\eb_engine.c" />
+    <ClCompile Include="..\..\src\eb_game.c" />
+    <ClCompile Include="..\..\src\eb_image.c" />
+    <ClCompile Include="..\..\src\eb_log.c" />
+    <ClCompile Include="..\..\src\eb_opsimulator.c" />
+    <ClCompile Include="..\..\src\eb_resmanager.c" />
+    <ClCompile Include="..\..\src\eb_task.c" />
+    <ClCompile Include="..\..\src\eb_utils.c" />
     <ClCompile Include="..\..\src\main.c" />
+    <ClCompile Include="..\..\vendors\c_hashmap\hashmap.c" />
+    <ClCompile Include="..\..\vendors\stb\stb_image.c" />
+    <ClCompile Include="..\..\vendors\stb\stb_image_write.c" />
+    <ClCompile Include="..\..\vendors\sxmlc\sxmlc.c" />
+    <ClCompile Include="..\..\vendors\sxmlc\sxmlsearch.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\eb_common.h" />
+    <ClInclude Include="..\..\src\eb_config.h" />
+    <ClInclude Include="..\..\src\eb_engine.h" />
+    <ClInclude Include="..\..\src\eb_game.h" />
+    <ClInclude Include="..\..\src\eb_image.h" />
+    <ClInclude Include="..\..\src\eb_log.h" />
+    <ClInclude Include="..\..\src\eb_opsimulator.h" />
+    <ClInclude Include="..\..\src\eb_resmanager.h" />
+    <ClInclude Include="..\..\src\eb_res_defs.h" />
+    <ClInclude Include="..\..\src\eb_task.h" />
+    <ClInclude Include="..\..\src\eb_utils.h" />
+    <ClInclude Include="..\..\vendors\c_hashmap\hashmap.h" />
+    <ClInclude Include="..\..\vendors\stb\stb_image.h" />
+    <ClInclude Include="..\..\vendors\stb\stb_image_write.h" />
+    <ClInclude Include="..\..\vendors\sxmlc\sxmlc.h" />
+    <ClInclude Include="..\..\vendors\sxmlc\sxmlsearch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}</ProjectGuid>
@@ -32,14 +64,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140_xp</PlatformToolset>
-    <CharacterSet>NotSet</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>NotSet</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -101,6 +133,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
@@ -135,6 +168,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
