@@ -53,6 +53,9 @@
     <ClInclude Include="..\..\vendors\sxmlc\sxmlc.h" />
     <ClInclude Include="..\..\vendors\sxmlc\sxmlsearch.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
