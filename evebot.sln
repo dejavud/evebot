@@ -7,18 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evebot", "builds\evebot\eve
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		debug|x64 = debug|x64
 		debug|x86 = debug|x86
-		release|x64 = release|x64
 		release|x86 = release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.debug|x64.ActiveCfg = debug|x64
-		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.debug|x64.Build.0 = debug|x64
 		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.debug|x86.ActiveCfg = debug|Win32
 		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.debug|x86.Build.0 = debug|Win32
-		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.release|x64.ActiveCfg = release|x64
-		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.release|x64.Build.0 = release|x64
 		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.release|x86.ActiveCfg = release|Win32
 		{04AA3E3F-0CCB-46A2-ABBB-C98FBD655750}.release|x86.Build.0 = release|Win32
 	EndGlobalSection
